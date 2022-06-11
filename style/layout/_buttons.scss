@@ -15,7 +15,17 @@
       border-radius: 50%;
       border: 0;
       color: $MediumGrey;
+      font-family: $font;
       cursor: pointer;
+      &:hover{
+         background-color: $Orange;
+         color: $White;
+      }
+   }
+   .marked{
+      background-color: $LightGrey;
+      outline: none;
+      color: white;
    }
 }
 .submit{
@@ -28,4 +38,8 @@
    font-family: $font;
    padding: 5px 0;
    cursor: pointer;
+   &:hover{
+      background-color: $White;
+      color: $Orange;
+   }
 }

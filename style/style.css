@@ -129,7 +129,17 @@ body {
   border-radius: 50%;
   border: 0;
   color: hsl(216deg, 12%, 54%);
+  font-family: "Changa", sans-serif;
   cursor: pointer;
+}
+.container .ratingButtons button:hover {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+.container .ratingButtons .marked {
+  background-color: hsl(217deg, 12%, 63%);
+  outline: none;
+  color: white;
 }
 .container .submit {
   width: 100%;
@@ -141,4 +151,8 @@ body {
   font-family: "Changa", sans-serif;
   padding: 5px 0;
   cursor: pointer;
+}
+.container .submit:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
 }/*# sourceMappingURL=style.css.map */
