@@ -88,8 +88,9 @@ body {
   background-image: linear-gradient(to bottom, hsl(213deg, 19%, 18%), hsl(207deg, 17%, 12%));
   width: 400px;
   height: 400px;
-  padding: 20px;
+  padding: 25px;
   border-radius: 20px;
+  @import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap");
 }
 .container .normalState .logo {
@@ -99,4 +100,17 @@ body {
   background-color: hsla(0deg, 0%, 99%, 0.044);
   border-radius: 50%;
   padding: 10px;
+}
+.container section {
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Changa", sans-serif;
+}
+.container section h1 {
+  font-weight: 400;
+  margin-top: 20px;
+}
+.container section p {
+  font-size: 15px;
+  color: hsl(217deg, 12%, 63%);
+  margin: 10px 0;
 }/*# sourceMappingURL=style.css.map */

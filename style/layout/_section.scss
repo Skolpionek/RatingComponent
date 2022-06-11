@@ -1,0 +1,19 @@
+@import '../res/colors';
+@import '../res/fonts';
+@import '../res/typo';
+
+
+section{
+   color: $White;
+   font-family: $font;
+   h1{
+      font-weight: $slim;
+      margin-top: 20px;
+   }
+   p{
+      font-size: $paragraphSize;
+      color: $LightGrey;
+      margin: 10px 0;
+   }
+   
+}
