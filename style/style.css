@@ -97,26 +97,44 @@ body {
 .container .disabled {
   display: none;
 }
-.container .normalState .logo {
+.container .logo {
   margin: 10px 0;
 }
-.container .normalState .logo img {
+.container .logo img {
   background-color: hsla(0deg, 0%, 99%, 0.044);
   border-radius: 50%;
   padding: 10px;
 }
-.container section {
+.container .image {
+  margin: 15px auto;
+}
+.container section, .container .txt {
   color: hsl(0deg, 0%, 100%);
   font-family: "Changa", sans-serif;
 }
-.container section h1 {
+.container section h1, .container .txt h1 {
   font-weight: 400;
   margin-top: 20px;
 }
-.container section p {
+.container section p, .container .txt p {
   font-size: 15px;
   color: hsl(217deg, 12%, 63%);
   margin: 10px 0;
+}
+.container .TyState .txt h1, .container .TyState .txt p {
+  text-align: center;
+}
+.container .info {
+  background-color: hsl(213deg, 19%, 18%);
+  padding: 5px 15px;
+  margin: 20px auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  border: 0;
+  color: hsl(25deg, 97%, 53%);
+  font-family: "Changa", sans-serif;
 }
 .container .ratingButtons {
   display: flex;

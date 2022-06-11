@@ -1,6 +1,8 @@
 const RatingButtons = document.querySelectorAll(".ratingButtons button")
 const Submit = document.querySelector(".submit")
-
+const info = document.querySelector(".info")
+const NormalState = document.querySelector(".normalState")
+const TyState = document.querySelector(".TyState")
 
 RatingButtons.forEach(button=>{
    button.addEventListener("click",HandleRate)
@@ -18,6 +20,8 @@ function HandleRate(e){
 
 Submit.addEventListener("click",()=>{
    if(Rating != undefined){
-      console.log("gay")
+      info.innerHTML = `You selected ${Rating} out of 5`
+      NormalState.classList.add("disabled")
+      TyState.classList.remove("disabled")
    }
 })
