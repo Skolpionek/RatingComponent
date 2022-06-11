@@ -86,10 +86,11 @@ body {
 
 .container {
   background-image: linear-gradient(to bottom, hsl(213deg, 19%, 18%), hsl(207deg, 17%, 12%));
-  width: 400px;
-  height: 400px;
-  padding: 25px;
+  width: 375px;
+  height: 375px;
+  padding: 30px;
   border-radius: 20px;
+  @import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap");
 }
@@ -113,4 +114,31 @@ body {
   font-size: 15px;
   color: hsl(217deg, 12%, 63%);
   margin: 10px 0;
+}
+.container .ratingButtons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin: 20px 0;
+}
+.container .ratingButtons button {
+  background-color: hsl(213deg, 19%, 18%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0;
+  color: hsl(216deg, 12%, 54%);
+  cursor: pointer;
+}
+.container .submit {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 15px;
+  border: 0;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(25deg, 97%, 53%);
+  font-family: "Changa", sans-serif;
+  padding: 5px 0;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

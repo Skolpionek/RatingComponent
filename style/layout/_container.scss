@@ -8,11 +8,12 @@
       hsl(213, 19%, 18%),
       hsl(207, 17%, 12%)
     );
-   width: 400px;
-   height: 400px;
-   padding: 25px;
+   width: 375px;
+   height: 375px;
+   padding: 30px;
    border-radius: 20px;
    @import '../layout/_logo';
    @import '../layout/_section';
+   @import '../layout/_buttons';
    // #252d37
 }
