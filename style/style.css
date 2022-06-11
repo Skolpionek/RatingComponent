@@ -1,12 +1,10 @@
 /* Box sizing rules */
 @import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap");
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Remove default padding */
@@ -74,41 +72,31 @@ select {
             animation-duration: 0.01ms !important;
     -webkit-animation-iteration-count: 1 !important;
             animation-iteration-count: 1 !important;
-    -webkit-transition-duration: 0.01ms !important;
-            transition-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
 }
 body {
   background-color: hsl(216deg, 12%, 8%);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-main {
-  background-color: hsl(213deg, 19%, 18%);
+.container {
+  background-image: linear-gradient(to bottom, hsl(213deg, 19%, 18%), hsl(207deg, 17%, 12%));
   width: 400px;
   height: 400px;
   padding: 20px;
   border-radius: 20px;
+  @import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap");
 }
-
-.logo {
+.container .normalState .logo {
   margin: 10px 0;
 }
-.logo img {
-  background-color: hsla(0deg, 0%, 0%, 0.161);
+.container .normalState .logo img {
+  background-color: hsla(0deg, 0%, 99%, 0.044);
   border-radius: 50%;
   padding: 10px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,14 @@
+@import '../res/colors';
+@import '../res/fonts';
+@import '../res/typo';
+
+.normalState{
+   .logo{
+      margin: 10px 0;
+      img{
+         background-color: hsla(0, 0%, 99%, 0.044);
+         border-radius: 50%;
+         padding: 10px;
+      }
+   }
+}
