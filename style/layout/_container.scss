@@ -3,6 +3,9 @@
 @import '../res/typo';
 
 .container{
+   .disabled{
+      display: none;
+   }
    background-image: linear-gradient(
       to bottom,
       hsl(213, 19%, 18%),

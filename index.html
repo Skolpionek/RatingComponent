@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="./style/style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Interactive rating component</title>
   <style>
     .attribution { font-size: 11px; text-align: center; color: white; position: absolute; bottom: 10px;}
@@ -13,7 +13,7 @@
 </head>
 <body>
   <div class="container">
-    <div class="normalState">
+    <div class="normalState disabled">
       <div class="logo">
         <img src="./assets/images/icon-star.svg" alt="logo">
       </div>
@@ -25,11 +25,11 @@
         </p>
       </section>
       <div class="ratingButtons">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
+        <button value="1">1</button>
+        <button value="2">2</button>
+        <button value="3">3</button>
+        <button value="4">4</button>
+        <button value="5">5</button>
       </div>
       <button class="submit">SUBMIT</button>
     </div>
@@ -40,5 +40,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Oskar Przybyła</a>.
   </div>
+  <script src="./js/script.js"></script>
 </body>
 </html>
