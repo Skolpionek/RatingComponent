@@ -1,0 +1,11 @@
+@import '../res/colors';
+@import '../res/fonts';
+@import '../res/typo';
+
+body{
+   background-color: $VeryDarkBlue;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}

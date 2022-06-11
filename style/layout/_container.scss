@@ -1,0 +1,11 @@
+@import '../res/colors';
+@import '../res/fonts';
+@import '../res/typo';
+
+main{
+   background-color: $DarkBlue;
+   width: 400px;
+   height: 400px;
+   padding: 20px;
+   border-radius: 20px;
+}
